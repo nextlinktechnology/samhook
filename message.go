@@ -1,22 +1,13 @@
 package samhook
 
-// SlackWarning is a predefined color for a warning (yellow)
-const SlackWarning string = "warning"
+// Warning is a predefined color for a warning (yellow)
+const Warning string = "#FFBB00"
 
-// SlackDanger is a predefined color for a dangerous condition (red)
-const SlackDanger string = "danger"
+// Danger is a predefined color for a dangerous condition (red)
+const Danger string = "#FF0000"
 
-// SlackGood is a predefined color for a normal information (green)
-const SlackGood string = "good"
-
-// MattermostWarning is a predefined color for a warning (yellow)
-const MattermostWarning string = "#FFBB00"
-
-// MattermostDanger is a predefined color for a dangerous condition (red)
-const MattermostDanger string = "#FF0000"
-
-// MattermostGood is a predefined color for a normal information (green)
-const MattermostGood string = "#00FF00"
+// Good is a predefined color for a normal information (green)
+const Good string = "#00FF00"
 
 // Message message主體
 type Message struct {
