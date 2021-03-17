@@ -1,3 +1,3 @@
-module github.com/circleyu/samhook
+module github.com/nextlinktechnology/samhook
 
-go 1.12
+go 1.16
